@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotA{
+    width: auto;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding:0px 90px 0px;
+    
+}
+.PfotA{
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+}
+.fot{
+    width: 100%;
+    height: 62px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-color:#F0A83E;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.menu-nav{
+    display: flex;
+    height: 62px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    align-items: center;
+    justify-content:flex-end ;
+}
+
+
+.menu-nav li{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+}
+
+
+.imagenP{
+    width: 100%;
+    height:500px;
+    background-image: url("../img/imagenP.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.contenido{
+    width: 400px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+.texto{
+    display: flex;
+    width: 400px;
+    height:auto;
+    background-color: white;
+    padding: 10px 0 10px;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+.texto2{
+    display: flex;
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    font-size: 20px;   
+ 
+}
+.boton{
+    display: flex;
+    Width:130px;
+    Height: auto;
+    background-color: #F0A83E;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.ProductosDestacados{
+    display: flex;
+    width: auto;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.ProductosDestacados .patita{
+    Width: 67px;
+    Height: 71px;
+    background-image: url("../img/productos-destacados-foto.png");
+    margin: 20px;
+}
+.ProductosDestacados .titulo{
+    font-size: 40px;
+    font-weight: 700;
+}
+.ProductosDestacados .titulo li{
+    font-size: 20px;
+    list-style: none;
+    font-weight: 200;
+    display: inline-block;   
+}
+.ProductosDestacados .productos{
+    display: inline-flex; 
+    Width :265px;
+    Height: 312px;
+    justify-content: center;     
+}
+.productos .foto{
+    Height: 268px;
+
+}
+.productos .descripcion{
+   height: auto;
+   text-align: center;
+}
+.productos .descripcion .precio{
+    color: #F0A83E;
+}
+.contenedor-c{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.contacto{
+    display: flex;
+    Width :340px;
+    Height :264px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contacto p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contacto .formulario{
+    font-size: 10px;
+    Width :340px;
+    Height :auto;
+    background-color: #3C2313;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+}
+.botones{ 
+    margin: 35px;
+}
+
+.botones .uno{
+    border-radius: 15px;
+    padding: 7px 20px ;
+    background-color: #8A8787;
+    margin-right: 20px;
+    color: white;
+   
+}
+.botones .dos{
+   padding: 7px 20px ;
+   border-radius: 15px;
+   background-color: #F0A83E;
+   color: white;
+}
+.navegador-i{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 60px;
+    background-color: #F0A83E;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegador-i .novedades{
+     color: white;
+     font-size: 20px;
+     font-weight: 700;
+     
+}
+.navegador-i .buscador{
+    display: flex;
+    Width :450px;
+    Height :40px;
+}
+.navegador-i .buscador .a{
+    Width :340px;
+    Height :40px;
+    background-color:white;
+    border-radius: 25px;
+}
+.navegador-i .buscador .b{
+    
+    Width :80px;
+    Height :auto;
+    color: white;
+    font-weight: 700;
+    background-color: #3C2313;
+    border-radius: 15px;
+    font-size: 10px;
+    align-self: center;
+    text-align: center;
+    padding: 10px; 
+    margin-left: 10px;
+    
+}
+
+footer{  
+    display: flex;
+    flex-direction: column;
+    Width :100%;
+    Height :300px;
+    background-color: #3C2313;
+    padding: 10px;
+}
+.iconos-f{
+    display: flex;
+   background-color: azure;
+    Width :500px;
+    Height :100px;
+   
+   
+}
+.iconos-f img{
+    Width :80px;
+    Height :80px;
+}
+.iconos-f p{
+    text-align: center;
+    Width :500px;
+    Height :80px;
+    color: white;
+    font-size: 10px;
+}

@@ -1,0 +1,151 @@
+/*ETIQUETAS*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 650px;
+    margin: 30px;
+ 
+}
+
+ /*HEADER CLASS*/
+
+ .header-a{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     height: 38px;
+     background-color: #1CD1B0;
+     padding:3px;
+    
+ }
+
+ .header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 101px;
+    background-color: #00669F;
+    padding-top: 3px;
+    padding-left: 30px;
+  
+ }
+
+ .texto-header{
+     left: 10px;
+     bottom: 10px;
+ }
+
+ /*MAIN CLASS*/
+
+.caja{
+    position: relative;
+    display: inline-block;
+    margin: 50px;    
+    height: 433px;
+    width: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.corazon{
+    width: 30px;
+    height: 27px;
+    background-image: url("../img/corazon.png");
+    z-index: 1;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+
+.perfil{
+   width: 118px; 
+   height: 118px;
+   position: absolute;
+   top: 120px;
+   left: 90px;
+   border-radius: 50%;
+
+}
+
+.perfil-batman{
+    background-image: url("../img/perfilBatman.png");
+}
+
+.perfil-harley{
+    background-image: url("../img/perfilHarley.png");
+}
+
+.portada{
+    width: 300px;
+    height: 193px;    
+}
+
+.portada-batman{
+    background-image: url("../img/portadaBatman.png");
+}
+
+.portada-harley{
+    background-image: url("../img/portadaHarley.png");
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width:300px ;
+    height:340px ; 
+    padding: 30px;
+    background-color: #F3F3F3;
+    text-align: center;
+}
+
+.boton{
+   
+    display: flex;
+    align-self: center;
+    width: 128.78px;
+    height: 48.52px;
+    background: #00669F;
+    align-items: center;
+    justify-content: center;
+    
+}
+.texto-boton{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*FOOTER CLASS*/
+
+.pie-pagina{
+    position:flex;
+    align-items: center;
+    background-color: #00669F;
+    top: 200px;
+    color: white;
+    font-weight: 400;
+    height: 40px;
+
+}
+
